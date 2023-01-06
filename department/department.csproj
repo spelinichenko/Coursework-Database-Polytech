@@ -62,23 +62,411 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAssessment.Designer.cs">
+      <DependentUpon>AddAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAssessmentLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAssessmentLector.Designer.cs">
+      <DependentUpon>AddAssessmentLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDescriptionSubjectsLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDescriptionSubjectsLector.Designer.cs">
+      <DependentUpon>AddDescriptionSubjectsLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLector.Designer.cs">
+      <DependentUpon>AddLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLectorsGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLectorsGroups.Designer.cs">
+      <DependentUpon>AddLectorsGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSubject.Designer.cs">
+      <DependentUpon>AddSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTimetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimetable.Designer.cs">
+      <DependentUpon>AddTimetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTimetableByLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimetableByLector.Designer.cs">
+      <DependentUpon>AddTimetableByLector.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administrator.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Administrator.Designer.cs">
       <DependentUpon>Administrator.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cryptography.cs" />
-    <Compile Include="startWindow.cs">
+    <Compile Include="AllDataAuth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="startWindow.Designer.cs">
-      <DependentUpon>startWindow.cs</DependentUpon>
+    <Compile Include="AllDataAuth.Designer.cs">
+      <DependentUpon>AllDataAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllGroups.Designer.cs">
+      <DependentUpon>AllGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllLectorsAndDataAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllLectorsAndDataAuth.Designer.cs">
+      <DependentUpon>AllLectorsAndDataAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllStudentsAndGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllStudentsAndGroups.Designer.cs">
+      <DependentUpon>AllStudentsAndGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllStudentsDataAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllStudentsDataAuth.Designer.cs">
+      <DependentUpon>AllStudentsDataAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AVGassessments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AVGassessments.Designer.cs">
+      <DependentUpon>AVGassessments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cryptography.cs" />
+    <Compile Include="addGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addGroup.Designer.cs">
+      <DependentUpon>addGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSubject.Designer.cs">
+      <DependentUpon>DeleteSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteTimetables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteTimetables.Designer.cs">
+      <DependentUpon>DeleteTimetables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForGroups.cs" />
+    <Compile Include="GroupSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupSubject.Designer.cs">
+      <DependentUpon>GroupSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectorNavigator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectorNavigator.Designer.cs">
+      <DependentUpon>LectorNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectorsAndGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectorsAndGroups.Designer.cs">
+      <DependentUpon>LectorsAndGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectorsAndSubjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectorsAndSubjects.Designer.cs">
+      <DependentUpon>LectorsAndSubjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectorsForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectorsForms.Designer.cs">
+      <DependentUpon>LectorsForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOdnogroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOdnogroups.Designer.cs">
+      <DependentUpon>MyOdnogroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySubjectsLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySubjectsLector.Designer.cs">
+      <DependentUpon>MySubjectsLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationAdmin.Designer.cs">
+      <DependentUpon>NavigationAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllAssessments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllAssessments.Designer.cs">
+      <DependentUpon>ShowAllAssessments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllLectors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllLectors.Designer.cs">
+      <DependentUpon>ShowAllLectors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllStudents.Designer.cs">
+      <DependentUpon>ShowAllStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecificStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecificStudent.Designer.cs">
+      <DependentUpon>ShowAssessmentSpecificStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecificStudentSpecirficSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecificStudentSpecirficSubject.Designer.cs">
+      <DependentUpon>ShowAssessmentSpecificStudentSpecirficSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecStutById.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAssessmentSpecStutById.Designer.cs">
+      <DependentUpon>ShowAssessmentSpecStutById.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Showing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Showing.Designer.cs">
+      <DependentUpon>Showing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowSpecificStudentByLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowSpecificStudentByLector.Designer.cs">
+      <DependentUpon>ShowSpecificStudentByLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStudentsLectors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStudentsLectors.Designer.cs">
+      <DependentUpon>ShowStudentsLectors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStudentSpecificAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStudentSpecificAssessment.Designer.cs">
+      <DependentUpon>ShowStudentSpecificAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStudentSpecificGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStudentSpecificGroup.Designer.cs">
+      <DependentUpon>ShowStudentSpecificGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStudentsThatNoHaveAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStudentsThatNoHaveAssessment.Designer.cs">
+      <DependentUpon>ShowStudentsThatNoHaveAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTimetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowTimetable.Designer.cs">
+      <DependentUpon>ShowTimetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTimetablesSpecific.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowTimetablesSpecific.Designer.cs">
+      <DependentUpon>ShowTimetablesSpecific.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentInformation.Designer.cs">
+      <DependentUpon>StudentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentNavigator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentNavigator.Designer.cs">
+      <DependentUpon>StudentNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAssessment.Designer.cs">
+      <DependentUpon>UpdateAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAssessmentByLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAssessmentByLector.Designer.cs">
+      <DependentUpon>UpdateAssessmentByLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateLector.Designer.cs">
+      <DependentUpon>UpdateLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateLectorsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateLectorsInfo.Designer.cs">
+      <DependentUpon>UpdateLectorsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStudent.Designer.cs">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStudentByStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStudentByStudent.Designer.cs">
+      <DependentUpon>UpdateStudentByStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSubject.Designer.cs">
+      <DependentUpon>UpdateSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTimetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTimetable.Designer.cs">
+      <DependentUpon>UpdateTimetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTimetableByLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTimetableByLector.Designer.cs">
+      <DependentUpon>UpdateTimetableByLector.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAssessment.resx">
+      <DependentUpon>AddAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAssessmentLector.resx">
+      <DependentUpon>AddAssessmentLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDescriptionSubjectsLector.resx">
+      <DependentUpon>AddDescriptionSubjectsLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addGroup.resx">
+      <DependentUpon>addGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLector.resx">
+      <DependentUpon>AddLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLectorsGroups.resx">
+      <DependentUpon>AddLectorsGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSubject.resx">
+      <DependentUpon>AddSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimetable.resx">
+      <DependentUpon>AddTimetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimetableByLector.resx">
+      <DependentUpon>AddTimetableByLector.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administrator.resx">
       <DependentUpon>Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllDataAuth.resx">
+      <DependentUpon>AllDataAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllGroups.resx">
+      <DependentUpon>AllGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllLectorsAndDataAuth.resx">
+      <DependentUpon>AllLectorsAndDataAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllStudentsAndGroups.resx">
+      <DependentUpon>AllStudentsAndGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllStudentsDataAuth.resx">
+      <DependentUpon>AllStudentsDataAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AVGassessments.resx">
+      <DependentUpon>AVGassessments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSubject.resx">
+      <DependentUpon>DeleteSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteTimetables.resx">
+      <DependentUpon>DeleteTimetables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupSubject.resx">
+      <DependentUpon>GroupSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectorNavigator.resx">
+      <DependentUpon>LectorNavigator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectorsAndGroups.resx">
+      <DependentUpon>LectorsAndGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectorsAndSubjects.resx">
+      <DependentUpon>LectorsAndSubjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectorsForms.resx">
+      <DependentUpon>LectorsForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyOdnogroups.resx">
+      <DependentUpon>MyOdnogroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySubjectsLector.resx">
+      <DependentUpon>MySubjectsLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationAdmin.resx">
+      <DependentUpon>NavigationAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,8 +477,80 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="startWindow.resx">
-      <DependentUpon>startWindow.cs</DependentUpon>
+    <EmbeddedResource Include="ShowAllAssessments.resx">
+      <DependentUpon>ShowAllAssessments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllLectors.resx">
+      <DependentUpon>ShowAllLectors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllStudents.resx">
+      <DependentUpon>ShowAllStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAssessmentSpecificStudent.resx">
+      <DependentUpon>ShowAssessmentSpecificStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAssessmentSpecificStudentSpecirficSubject.resx">
+      <DependentUpon>ShowAssessmentSpecificStudentSpecirficSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAssessmentSpecStutById.resx">
+      <DependentUpon>ShowAssessmentSpecStutById.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Showing.resx">
+      <DependentUpon>Showing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowSpecificStudentByLector.resx">
+      <DependentUpon>ShowSpecificStudentByLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStudentsLectors.resx">
+      <DependentUpon>ShowStudentsLectors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStudentSpecificAssessment.resx">
+      <DependentUpon>ShowStudentSpecificAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStudentSpecificGroup.resx">
+      <DependentUpon>ShowStudentSpecificGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStudentsThatNoHaveAssessment.resx">
+      <DependentUpon>ShowStudentsThatNoHaveAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowTimetable.resx">
+      <DependentUpon>ShowTimetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowTimetablesSpecific.resx">
+      <DependentUpon>ShowTimetablesSpecific.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentInformation.resx">
+      <DependentUpon>StudentInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentNavigator.resx">
+      <DependentUpon>StudentNavigator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAssessment.resx">
+      <DependentUpon>UpdateAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAssessmentByLector.resx">
+      <DependentUpon>UpdateAssessmentByLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateLector.resx">
+      <DependentUpon>UpdateLector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateLectorsInfo.resx">
+      <DependentUpon>UpdateLectorsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStudent.resx">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStudentByStudent.resx">
+      <DependentUpon>UpdateStudentByStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSubject.resx">
+      <DependentUpon>UpdateSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTimetable.resx">
+      <DependentUpon>UpdateTimetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTimetableByLector.resx">
+      <DependentUpon>UpdateTimetableByLector.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -16,7 +16,7 @@ namespace department
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new startWindow());
+            Application.Run(new Login());
         }
     }
 }
